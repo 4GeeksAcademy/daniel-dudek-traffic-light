@@ -1,16 +1,13 @@
-import HomePageContent from "../components/HomePageContent"
+import TrafficLight from "../components/TrafficLight";
+import HomePageHeader from "../components/HomePageHeader";
 
 const HomePage = () => {
-    return (
-        <>
-            <header>
-                <div>
-                    <h1>Hello</h1>
-                </div>
-            </header>
-            <HomePageContent />
-        </>
-    )
-}
+  return (
+    <>
+      <HomePageHeader />
+      <TrafficLight />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
